@@ -8,6 +8,11 @@
 - **Classes**: 106 (tabular sections, signatures, seals, financial fields, tax data, etc.)
 - **Purpose**: Training AI models for automated processing of invoices, tax reports and primary accounting documents
 
+### Annotation Rules
+- Yellow bounding boxes mark **conditional fields** (class names starting with `if_`).  
+  These are used to determine the type of the following field.
+- Example: `if_EDRPOU_code` → indicates that the next field is an EDRPOU code.
+  
 ### Dataset Statistics
 - Specialized dataset focused on Ukrainian financial documentation
 - High-quality bounding box annotations
