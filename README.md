@@ -5,7 +5,7 @@
 ### Project Details
 - **Tool**: CVAT
 - **Format**: YOLO
-- **Classes**: 95 (tabular sections, signatures, seals, financial fields, tax data, etc.)
+- **Classes**: 106 (tabular sections, signatures, seals, financial fields, tax data, etc.)
 - **Purpose**: Training AI models for automated processing of invoices, tax reports and primary accounting documents
 
 ### Dataset Statistics
