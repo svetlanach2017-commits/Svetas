@@ -21,7 +21,7 @@
 - `obj.data` — dataset configuration
 - Annotated images and labels in `obj_train_data/`
 
-### Google Drive
+### Dataset
 Full dataset 
 
 This dataset was created to improve AI models' understanding of real-world Ukrainian financial documents and business processes.
