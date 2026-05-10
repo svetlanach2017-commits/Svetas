@@ -9,7 +9,7 @@
 - **Purpose**: Training AI models for automated financial document processing
 
 ### Examples
-(Добавь сюда 4-6 скриншотов позже)
+
 
 ### Files
 - `obj.names` — list of 95 classes
