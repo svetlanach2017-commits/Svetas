@@ -20,7 +20,7 @@
 - `obj.data` — dataset configuration
 - Annotated images and labels in `obj_train_data/`
 
-### Google Drive
+### Dataset
 Full dataset
 ---
 
