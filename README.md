@@ -1,6 +1,6 @@
 # Ukrainian Financial Documents Dataset for AI Training
 
-**95-class annotated dataset** of real Ukrainian accounting and financial documents for training document understanding and information extraction models.
+**106-class annotated dataset** of real Ukrainian accounting and financial documents for training document understanding and information extraction models.
 
 ### Project Details
 - **Tool**: CVAT
@@ -17,13 +17,11 @@
 
 
 ### Files
-- `obj.names` — full list of 95 classes
+- `obj.names` — full list of  106 classes
 - `obj.data` — dataset configuration
 - Annotated images and labels in `obj_train_data/`
 
 ### Google Drive
-Full dataset: [https://drive.google.com/drive/folders/1aHk-6ePyBfqyp7PcZVy_fTPYw_sIJRRB?usp=sharing](https://drive.google.com/drive/folders/1aHk-6ePyBfqyp7PcZVy_fTPYw_sIJRRB?usp=sharing)
-
----
+Full dataset
 
 This dataset was created to improve AI models' understanding of real-world Ukrainian financial documents and business processes.
