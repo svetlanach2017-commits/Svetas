@@ -11,7 +11,7 @@
 ### Datasets Included
 - **Financial Documents** — 106 classes (invoices, tax reports, signatures, seals, tabular sections, etc.)
 - **Business Intelligence Dashboards** — Power BI & Excel (charts, KPI cards, trends, variances, comparisons)
-- **Odesa City Geospatial Map** — administrative districts and key geographical areas
+- **Odesa City Geospatial Map** — administrative districts and key geographical areas https://github.com/svetlanach2017-commits/AI_Annotation/tree/d5769495af0780c5ec8ac85a267f75b5aa362131/map_Odesa/Examples
 
 ### Model Critiques
 Conducted detailed evaluation and critique of Grok AI responses on financial, operational and business process topics.  
