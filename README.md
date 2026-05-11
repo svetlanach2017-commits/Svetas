@@ -26,7 +26,7 @@ Visual examples of annotation available in the [`examples/` folder](https://gith
 
 ### Links
 - **GitHub Repository**: [https://github.com/svetlanach2017-commits/AI_Annotation](https://github.com/svetlanach2017-commits/AI_Annotation)
-- **Full dataset**: [Google Drive](https://drive.google.com/drive/folders/1aHk-6ePyBfqyp7PcZVy_fTPYw_sIJRRB?usp=sharing)
+
 
 ---
 
