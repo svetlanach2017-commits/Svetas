@@ -36,4 +36,4 @@ Visual examples available in the [`examples/` folder](https://github.com/svetlan
 
 ---
 
-This dataset was created to improve AI models’ understanding of real-world Ukrainian financial and business documents.
+This dataset was created to improve AI models’ understanding of real-world  financial and business documents.
