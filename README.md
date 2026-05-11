@@ -1,4 +1,4 @@
-# AI Annotation - Ukrainian Financial Documents Dataset
+# AI Annotation - Financial Documents Dataset
 
 **106-class annotated dataset** of real Ukrainian accounting and financial documents created for training AI models on document layout analysis and information extraction.
 
