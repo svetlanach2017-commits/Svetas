@@ -1,6 +1,6 @@
 # AI Annotation - Financial Documents Dataset
 
-**106-class annotated dataset** of real Ukrainian accounting and financial documents created for training AI models on document layout analysis and information extraction.
+**106-class annotated dataset** of real accounting and financial documents created for training AI models on document layout analysis and information extraction.
 
 ### Project Details
 - **Tool**: CVAT
