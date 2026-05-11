@@ -9,7 +9,7 @@
 - **Purpose**: Training AI models to automatically process invoices, tax reports, primary accounting records and other financial documents
 
 ### Datasets Included
-- **Financial Documents** — 106 classes (invoices, tax reports, signatures, seals, tabular sections, etc.)
+- **Financial Documents** — 106 classes (invoices, tax reports, signatures, seals, tabular sections, etc.) https://github.com/svetlanach2017-commits/AI_Annotation/blob/02c3794eae2bf005b6f986e39c5e98b5e2c718d5/invoices_Ukraine/Examples/1.png
 - **Business Intelligence Dashboards** — Power BI & Excel (charts, KPI cards, trends, variances, comparisons) https://github.com/svetlanach2017-commits/AI_Annotation/tree/d5769495af0780c5ec8ac85a267f75b5aa362131/dashboard/Examples
 - **Odesa City Geospatial Map** — administrative districts and key geographical areas https://github.com/svetlanach2017-commits/AI_Annotation/tree/d5769495af0780c5ec8ac85a267f75b5aa362131/map_Odesa/Examples
 
