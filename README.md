@@ -35,7 +35,7 @@ High-quality annotated datasets and model critiques created for training AI mode
 - **Total classes across datasets**: 300+
 
 ### Purpose
-This portfolio demonstrates practical skills in **Data Labeling, Annotation, Quality Control and Model Critiques** — exactly the competencies required for the **Human Data Team** at xAI.
+This portfolio demonstrates practical skills in **Data Labeling, Annotation, Quality Control and Model Critiques**.
 
 ---
 
