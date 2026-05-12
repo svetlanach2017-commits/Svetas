@@ -1,6 +1,6 @@
-# Invoice Dataset - Ukrainian Financial Documents
+# Invoice Dataset - Financial Documents
 
-**106-class annotated dataset** of real Ukrainian invoices, tax reports and primary accounting documents.
+**106-class annotated dataset** of real  invoices, tax reports and primary accounting documents.
 
 ### Purpose
 This dataset is designed to train AI models for:
@@ -31,4 +31,4 @@ This dataset is suitable for training document understanding models (LayoutLM, D
 
 ---
 
-**Created for xAI Human Data Team** to improve AI understanding of real Ukrainian financial documents.
+**Created for xAI Human Data Team** to improve AI understanding of real financial documents.
