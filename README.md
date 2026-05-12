@@ -1,33 +1,42 @@
-# AI Annotation -  Financial Documents Dataset
+# AI Annotation Portfolio - Ukrainian & European Financial Documents
 
-**106-class high-quality annotated dataset** of real  accounting and financial documents, created for training AI models in document layout analysis, information extraction, and business understanding.
-
-### Project Details
-- **Tool**: CVAT
-- **Format**: YOLO
-- **Number of classes**: 106
-- **Purpose**: Training AI models to automatically process invoices, tax reports, primary accounting records and other financial documents
+High-quality annotated datasets and model critiques created for training AI models in document understanding, geospatial analysis, dashboard interpretation and business reasoning.
 
 ### Datasets Included
-- **Financial Documents** — 106 classes (invoices, tax reports, signatures, seals, tabular sections, etc.) https://github.com/svetlanach2017-commits/AI_Annotation/blob/02c3794eae2bf005b6f986e39c5e98b5e2c718d5/invoices_Ukraine/Examples/1.png
-- **Business Intelligence Dashboards** — Power BI & Excel (charts, KPI cards, trends, variances, comparisons) https://github.com/svetlanach2017-commits/AI_Annotation/tree/d5769495af0780c5ec8ac85a267f75b5aa362131/dashboard/Examples
-- **Odesa City Geospatial Map** — administrative districts and key geographical areas https://github.com/svetlanach2017-commits/AI_Annotation/tree/d5769495af0780c5ec8ac85a267f75b5aa362131/map_Odesa/Examples
 
-### Model Critiques
-Conducted detailed evaluation and critique of Grok AI responses on financial, operational and business process topics.  
-Examples available in the [`critiques/` folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/critiques).
+**1. Ukrainian Invoices Dataset** (`invoices_Ukraine`)
+- Real Ukrainian invoices, tax invoices and primary accounting documents
+- 110 classes
+- [→ Open folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/invoices_Ukraine)
 
-### Annotation Examples
-Visual examples of annotation available in the [`examples/` folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/examples).
+**2. European Invoices Dataset** (`Invoice`)
+- Real Estonian invoices
+- 129 classes
+- [→ Open folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/Invoice)
 
-### Files
-- `obj.names` — full list of 106 classes
-- Annotated images and labels in `obj_train_data/`
+**3. Business Intelligence Dashboards Dataset** (`dashboard`)
+- Annotated Power BI and Excel dashboards (KPI cards, charts, trends, filters)
+- 54 classes
+- [→ Open folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/dashboard)
 
-### Links
-- **GitHub Repository**: [https://github.com/svetlanach2017-commits/AI_Annotation](https://github.com/svetlanach2017-commits/AI_Annotation)
+**4. Odesa Region Geospatial Map Dataset** (`map_Odesa`)
+- Annotated administrative districts of Odesa Oblast
+- 7 classes
+- [→ Open folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/map_Odesa)
 
+**5. Model Critiques** (`critiques`)
+- Detailed critique and evaluation of Grok AI responses on financial, operational and business topics
+- Examples of hallucinations detection and structured improvement recommendations
+- [→ Open folder](https://github.com/svetlanach2017-commits/AI_Annotation/tree/main/critiques)
+
+### Technologies & Tools
+- **Annotation Tool**: CVAT
+- **Format**: YOLO
+- **Total classes across datasets**: 300+
+
+### Purpose
+This portfolio demonstrates practical skills in **Data Labeling, Annotation, Quality Control and Model Critiques** — exactly the competencies required for the **Human Data Team** at xAI.
 
 ---
 
-This dataset was created to help AI models better understand and process real-world  financial and business documents.
+**Created by Svetlana** — actively building high-quality datasets to advance AI understanding of real business and financial documents.
