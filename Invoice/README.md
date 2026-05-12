@@ -1,34 +1,25 @@
-# Invoice Dataset - Financial Documents
+# European Invoice Dataset
 
-**106-class annotated dataset** of real  invoices, tax reports and primary accounting documents.
+**Real European (Estonian) invoices** — high-quality annotated dataset for training AI models on document layout analysis and information extraction.
 
 ### Purpose
-This dataset is designed to train AI models for:
-- Automatic document layout analysis
-- Key information extraction (amounts, dates, counterparties, codes, signatures, seals, etc.)
-- Structured data parsing from scanned and digital financial documents
+- Training AI to parse European-style invoices
+- Extracting key fields (invoice number, date, seller/buyer details, amounts, VAT, IBAN, etc.)
+- Supporting multi-country financial document understanding
 
 ### Dataset Details
-- **Number of classes**: 106
 - **Format**: YOLO
 - **Tool**: CVAT
-- **Domain**: Ukrainian accounting and tax documents (invoices, acts, tax invoices, etc.)
-
-### Classes Include
-- Tabular sections and table headers
-- Signatures, seals, stamps
-- EDRPOU codes, IBAN, addresses
-- Dates, invoice numbers, amounts (total, VAT, without VAT)
-- Company names, counterparties
-- Payment details and other financial fields
+- **Document type**: Real Estonian invoices
+- **Classes**: Table structures, totals, VAT breakdowns, company details, payment information, seals, signatures, etc.
 
 ### Folder Structure
-- `/dataset/` — images and annotation files
-- `/Examples/` — visual examples of annotations with bounding boxes
+- `/dataset/` — original images + annotation files
+- `/Examples/` — visual annotation examples with bounding boxes
 
-### Usage
-This dataset is suitable for training document understanding models (LayoutLM, Donut, YOLO-based detectors, etc.).
+### Value for AI Training
+Helps models generalize across different European invoice formats and layouts.
 
 ---
 
-**Created for xAI Human Data Team** to improve AI understanding of real financial documents.
+**Part of the multi-country financial documents collection for AI training.**
