@@ -1,32 +1,36 @@
-# Ukrainian Financial Documents Dataset for AI Training
+# Ukrainian Invoices Dataset
 
-**106-class annotated dataset** of real Ukrainian accounting and financial documents for training document understanding and information extraction models.
+**Real Ukrainian financial documents** — high-quality annotated dataset containing 110 classes.
 
-### Project Details
-- **Tool**: CVAT
+### Purpose
+This dataset consists of real Ukrainian invoices, tax invoices (податкові накладні), acts and primary accounting documents. It is created to train AI models for:
+- Document layout understanding
+- Automatic information extraction from Ukrainian financial documents
+- Structured data parsing (amounts, VAT, counterparties, EDRPOU, IBAN, signatures, seals, etc.)
+
+### Dataset Details
+- **Number of classes**: 110
 - **Format**: YOLO
-- **Classes**: 106 (tabular sections, signatures, seals, financial fields, tax data, etc.)
-- **Purpose**: Training AI models for automated processing of invoices, tax reports and primary accounting documents
+- **Annotation tool**: CVAT
+- **Language**: Ukrainian
+- **Document types**: Invoices, tax invoices, acts of completed works, primary accounting records
 
-### Annotation Rules
-- Yellow bounding boxes mark **conditional fields** (class names starting with `if_`).  
-  These are used to determine the type of the following field.
-- Example: `if_EDRPOU_code` → indicates that the next field is an EDRPOU code.
-  
-### Dataset Statistics
-- Specialized dataset focused on Ukrainian financial documentation
-- High-quality bounding box annotations
+### Key Classes
+- Tabular sections, table headers, summaries
+- Company details, EDRPOU, RNOKPP, addresses
+- Amounts (total, without VAT, VAT, in words)
+- Signatures, seals, stamps
+- Bank details, IBAN, MFI
+- Invoice numbers, dates, payment terms
+- Nomenclature, units, quantities, UKTZED codes
 
-### Examples
+### Folder Structure
+- `/dataset/` — original images and annotation files
+- `/Examples/` — visual examples of annotations with bounding boxes
 
+### Value for AI
+Helps AI models better understand real Ukrainian accounting and tax documents used in business operations.
 
-### Files
-- `obj.names` — full list of 106 classes
-- `obj.data` — dataset configuration
-- Annotated images and labels in `obj_train_data/`
-
-### Dataset
-Full dataset
 ---
 
-This dataset was created to improve AI models' understanding of real-world Ukrainian financial documents and business processes.
+**Part of the Ukrainian Financial Documents Collection for AI Training.**
